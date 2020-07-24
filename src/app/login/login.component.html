@@ -1,0 +1,24 @@
+<div class="all">
+
+<div class="container">
+    <h2>Login form</h2>
+    <form #loginForm='ngForm' (ngSubmit)="LoginUser()">
+
+      <div class="form-group">
+        <label class="e-mail">UserName:</label>
+        <input type="text" required #name="ngModel"  class="form-inner" id="email" placeholder="Enter UserName"  [(ngModel)]='userFresh.uname' name='emailId'>
+   
+    </div>
+  
+    <div class="form-group">
+        <label class="pass">Password:</label>
+        <input type="password" class="form-inner" required #pass="ngModel" id="pwd" placeholder="Enter password" [(ngModel)]='userFresh.code' name='passcode' >
+      </div>
+      <div class="checkbox">
+        <label><input type="checkbox" name="remember" [(ngModel)]='userFresh.tick'> Remember me</label>
+      </div>
+      <button [disabled]="loginForm.form.invalid" type="submit" class="btn btn-danger"  >Login</button>
+    </form>
+  </div>
+
+</div>

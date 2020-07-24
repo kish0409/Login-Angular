@@ -1,0 +1,47 @@
+
+.container{
+    color: purple;
+    position: absolute;
+    right: 450px;
+    top: 120px;
+    background-color: black;
+    width: 700px;
+    height: 325px;
+    text-align: center;
+    
+padding-top: 10px;
+    border-radius: 10px;
+}
+
+.e-mail{
+    
+    padding: 2px;
+    position: relative;
+    left: -100px;
+    font-weight: bold ;
+    display: block;
+}
+.pass{
+
+    padding: 2px;
+    position: relative;
+    left: -90px;
+    font-weight: bold ;
+    display: block;
+}
+.form-inner{
+    text-align: center;
+    width: 250px;
+}
+.checkbox{
+    padding: 7px;
+    position: relative;
+    left: -100px;
+}
+
+.btn{
+    font-size: 20px;
+    width: 100px;
+   
+    font-weight: bolder;
+}
